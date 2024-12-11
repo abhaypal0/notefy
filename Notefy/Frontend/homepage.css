@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+}
+.header img {
+  height: 5vh;
+  width: 5vw;
+  border-radius: 50px;
+}
+.header h1 {
+  font-style: inherit;
+}
+h1:hover {
+  background-color: brown;
+  border-radius: 30px;
+  transition: all linear 0.7s;
+}
+.search-bar input {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #efe8ea;
+  width: 30vw;
+  height: 5vh;
+  border-radius: 30px;
+}
+.header button {
+  background-color: #000000;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin: 23px;
+  width: 7vw;
+}
+.header button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#user {
+  display: none;
+}
+.sidebar_menu {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 200px;
+  text-align: right;
+  background-color: #f8f9fa;
+  padding: 10px;
+  height: 100%; 
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); 
+  transition: right 0.3s ease; 
+}
+.sidebar_items {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: 50px; 
+}
+.sidebar_items p{
+  height: 5vh;
+  width: 13vw;
+  color: #000000;
+  border-color: #000000;
+  background-color: #e1d4d4;
+  text-align: center;
+  padding-top: 8px;
+}
+#user:checked ~ .sidebar_menu {
+  right: 0px;
+}
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+hr {
+  margin-top: 0.1;
+}
+.banner {
+  background-color: #d086e9;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  color: white;
+}
+.banner img {
+  width: 50px;
+  margin: 10px;
+}
+.Ecat {
+  padding-left: 2vw;
+}
+.Categories {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  text-align: center;
+  margin-top: 4%;
+}
+ol {
+  background-color: #d086e9;
+  height: 14vh;
+  width: 14vw;
+  border-radius: 20px;
+  padding-top: 4%;
+}
+#copy {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}

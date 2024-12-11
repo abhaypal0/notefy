@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+#title{
+  text-align: center;
+}
+   
+
+
+.box{
+    background-color: rgb(211, 200, 200);
+    width: 20em;
+    height: 3em;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    padding-bottom: 2px;
+    text-align: center;
+    
+}
+.box:hover{
+  
+  color: aliceblue;
+}
+
+#container{
+ text-align: center;
+ background-color: rgb(220, 210, 230);
+ width: 25vw;
+ height: 56 vh;
+  justify-items:center ;
+  border-radius: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+ 
+} 
+.signupbox{
+padding-top: 89px;
+ justify-items:center ;
+ border-radius: 30px;
+
+}
+.footer1{
+  padding-top: 10%;
+  justify-items: center;
+}
+
+.footer2{
+ 
+ width: 20vw;
+}
